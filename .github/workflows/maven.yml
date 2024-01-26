@@ -41,7 +41,7 @@ jobs:
                                 
          name: rapport de tests
                                 
-         path :  ${{ github.workspace }}/target
+         path :  ${{ github.workspace}}/target
                                 
          
   
