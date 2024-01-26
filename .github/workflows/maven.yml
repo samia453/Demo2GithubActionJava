@@ -35,12 +35,9 @@ jobs:
       run: mvn -B package --file pom.xml
     - name: Upload target folfer report
                                 
-      uses : actions/upload-artifact@v2
-                                
-      with:
-                                
-         name: rapport de tests
-                                
+      uses : actions/upload-artifact@v2                        
+      with:                      
+         name: rapport de tests                      
          path :  ${{ github.workspace}}/target
                                 
          
