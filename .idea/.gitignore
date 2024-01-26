@@ -6,3 +6,9 @@
 # Datasource local storage ignored files
 /dataSources/
 /dataSources.local.xml
+
+#ignorer le dossier target
+/target
+
+#Ignorer les java classes
+*.class
